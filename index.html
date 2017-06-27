@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<img src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png">
 	<title></title>
 </head>
 <body>
-	<main role="main">
-		<form>
-			
+	<div class="logo-display">
+		<img src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png" alt="AnalogSea company official logo">
+	</div>
+	<fieldset>
+		<form action="/signup/" attribute="post" >
+			<label for="input-email">Email</label>
+			<input id="input-email" type="email" name="email field" required="true">
+			<label for="password">Password</label>
+			<input id="input-password" type="password" name="password field" required="true">
 		</form>
-	</main>
+	</fieldset>
 </body>
 </html>
