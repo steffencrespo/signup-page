@@ -4,7 +4,9 @@ body {
 }
 
 .logo-display {
+	display: block;
 	height: 35px;
+	margin: 0 auto 30px;
 }
 
 form * {
