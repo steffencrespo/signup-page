@@ -14,6 +14,10 @@ form * {
 	display: block;
 }
 
+form a {
+	text-align: center;
+}
+
 h1 {
 	text-align: center;
 	font-weight: normal;
@@ -40,10 +44,25 @@ input, button {
 	padding-top: 7.5px;
 	padding-bottom: 7.5px;
 	height: 38px;
+	border-radius: 3px;
+	margin: 10px auto 20px;
+}
+
+input {
+	border: 2px solid #e7e7e7;
 }
 
 .button-signup {
 	background-color: green;
 	color: white;
+}
 
+.footer {
+	font-weight: 600;
+	text-align: center;
+	color: white;
+}
+
+p {
+	display: block;
 }
