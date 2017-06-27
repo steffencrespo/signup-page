@@ -1,5 +1,6 @@
 body {
 	font-family: 'Roboto', helvetica, sans-serif;
+	background-color: #298eea;
 }
 
 .logo-display {
@@ -10,10 +11,36 @@ form * {
 	display: block;
 }
 
+h1 {
+	text-align: center;
+	font-weight: normal;
+}
+
 fieldset {
+	border: 0px;
+	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 40px;
 	padding-right: 40px;
 	width: 320px;
+}
+
+input, button {
+	border-left: 1px;
+	border-right: 1px;
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+	width: 303px;
+	border-top: 1px;
+	border-bottom: 1px;
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+	height: 38px;
+}
+
+.button-signup {
+	background-color: green;
+	color: white;
+
 }
