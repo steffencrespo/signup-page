@@ -20,6 +20,12 @@ form * {
 
 form a {
 	text-align: center;
+	color: #999;
+	margin-bottom: 20px;
+}
+
+form a:hover {
+	color: #777;
 }
 
 h1 {
@@ -45,27 +51,45 @@ label {
 }
 
 input, button {
-	font-size: 22px;
 	border: 2px;
 	padding: 15px;
-	width: 303px;
 	height: auto;
 	margin: 10px auto 20px;
 }
 
 input {
+	width: 303px;
+	font-size: 18px;
 	border: 2px solid #e7e7e7;
 }
 
 .button-signup {
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 22px;
 	background-color: #15CD72;
 	color: white;
+
+}
+
+.button-signup:hover {
+	background-color: #0CB863;
+	transition: background 0.1s;
 }
 
 .footer {
+	letter-spacing: 1;
 	font-weight: 600;
 	text-align: center;
 	color: white;
+}
+
+.footer a {
+	color: white;
+}
+
+.footer a:hover {
+	color: #E7F1F9;
 }
 
 p {
